@@ -1,0 +1,102 @@
+
+body{
+	background-color: #a2eaff;
+
+}
+
+#taskColumn{
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #6ba0ea;
+	background-color:#6ba0ea ;
+	float: left;
+	margin:2px;
+	width: 33%;
+	text-align: center;
+}
+
+#taskForm{
+	background-color:#7fd2fb ;
+	border-style: outset;
+	border-radius: 10px;
+	margin: 5px;
+	text-align: left;
+	border-color: #7fd2fb;
+}
+
+#toDoColumn{
+	float: left;
+	margin:0px;
+	width: 33%;
+	border-style: outset;
+	border-radius: 10px;
+	border-color:#6ba0ea;
+	margin-top: 3px;
+	margin-left: 1px;
+	background-color:#6ba0ea ;
+	text-align: center;
+
+}
+
+#doneColumn{
+	float: left;
+	margin:0px;
+	width: 32%;
+	margin-top: 3px;
+	margin-left: 3px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color:#6ba0ea;
+	background-color:#6ba0ea ;
+	text-align: center;
+}
+
+.card{
+	margin:2px;
+	border-style: outset;
+	border-radius: 10px;
+	border-color: #7fd2fb;
+	background: #7fd2fb;
+}
+
+.card h5{
+	text-align: center;
+	background-color: #6ba0ea;
+	border-radius: 8px;
+	border-color: #6ba0ea;
+	border-style: outset;
+}
+
+.card p {
+	text-align: left;
+	font-size: small;
+	background-color: #6ba0ea;
+	border-radius: 8px;
+	border-color: #6ba0ea;
+	border-style: outset;
+}
+.card span p{
+	font-size: x-small;
+	display: inline-block;
+	background-color: #6ba0ea;
+	border-radius: 8px;
+	border-color: #6ba0ea;
+	border-style: outset;
+}
+.remove{
+	background-color: #6ba0ea;
+	border-color:#6ba0ea;
+	border-style: outset;
+	border-radius: 10px;
+	float:right;
+}
+
+.edit{
+	background-color: #6ba0ea;
+	border-color:#6ba0ea;
+	border-style: outset;
+	border-radius: 10px;
+	float:right;
+}
+
